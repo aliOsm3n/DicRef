@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Home"
+            android:icon="@drawable/home"
+            android:title="الاقسام" />
+        <item
+            android:id="@+id/Favourite"
+            android:icon="@drawable/like"
+            android:title=" المفضلة  " />
+        <item
+            android:id="@+id/About"
+            android:icon="@drawable/question"
+            android:title="من نحن " />
+        <item
+            android:id="@+id/Call"
+            android:icon="@drawable/call"
+            android:title="اتصل بنا " />
+
+        <item
+            android:id="@+id/Policy"
+            android:icon="@drawable/potentialy"
+            android:title=" سياسة الاستخدام  " />
+    </group>
+
+</menu>

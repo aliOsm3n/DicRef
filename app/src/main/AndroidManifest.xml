@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aliothman.dicref">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".ui.Splash_Activity"
+            android:theme="@style/AppTheme.NoTitle" />
+        <activity
+            android:name=".ui.Home_Activity"
+            android:label="@string/title_activity_home_"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.Selection_Activity"
+            android:label="@string/title_activity_selection_"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ui.Favourite_Activity"
+            android:theme="@style/AppTheme.NoTitle" />
+
+        <receiver android:name="android.support.v4.media.session.MediaButtonReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_BUTTON" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".ui.FullScreen_Activity" />
+        <activity android:name=".ui.About_Activity" />
+        <activity android:name=".ui.Policy_Activity" />
+        <activity android:name=".ui.Contect_Activity"></activity>
+    </application>
+
+</manifest>

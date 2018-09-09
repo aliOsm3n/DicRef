@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layoutDirection="rtl"
+    android:padding="2dp"
+    android:background="@drawable/fill_shape">
+
+    <RelativeLayout
+        android:layout_centerHorizontal="true"
+        android:id="@+id/layVideo"
+        android:layout_below="@+id/Catalog_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+            android:id="@+id/exo_player_view"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginRight="10dp" />
+
+    </RelativeLayout>
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:background="@drawable/fill_button"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:id="@+id/Share"
+        android:layout_below="@+id/layVideo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="5dp"
+        />
+
+</RelativeLayout>
+<View
+android:layout_below="@+id/Share"
+android:layout_width="match_parent"
+android:layout_height="6dp"
+android:layout_gravity="bottom"
+android:background="@color/gray"
+    />
+</LinearLayout>

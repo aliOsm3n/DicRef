@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">DicRef</string>
+    <string name="title_activity_home_">Home_Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_selection_">Selection_Activity</string>
+    <string name="action_search">search</string>
+    <string name="no_data">Sorry , NO DATA</string>
+    <string name="error">There  Are An Exception</string>
+    <string name="ConnectionError">The Internet Not Found</string>
+    <string name="nodata">NO DATA</string>
+    <string name="policytitle">سياسه الاستخدام</string>
+    <string name="call_us">اتصل بنا</string>
+    <string name="who_us">من نحن</string>
+</resources>

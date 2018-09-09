@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#31242E</color>
+    <color name="colorPrimaryDark">#31242E</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackground">#31242E</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="whitetranparent">#00ffffff</color>
+    <color name="background">#2D435B</color>
+    <color name="forstyle">#5DBCD2</color>
+    <color name="grey">#DCDCDC</color>
+    <color name="drawerColor">#2A2442</color>
+    <color name="colorDarkGrey">#A9A9A9</color>
+    <color name="maridBook">#2B445E</color>
+    <color name="yello">#F7FE2E</color>
+    <color name="gray">#BDBDBD</color>
+    <color name="openGrey">#F0F3F2</color>
+    <color name="success_toast_color">#8bc34a</color>
+    <color name="fail_toast_color">#ff5a5f</color>
+    <color name="info_toast_color">#3793cc</color>
+    <color name="white_degree">#FAF9F8</color>
+    <color name="catalogBack">#F2F1F4</color>
+    <color name="exoBarColor">#CC000000</color>
+</resources>

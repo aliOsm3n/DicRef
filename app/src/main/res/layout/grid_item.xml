@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layoutDirection="rtl"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="100dp"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:id="@+id/Layout_relative"
+    android:background="@drawable/fill_shape">
+
+     <View
+        android:id="@+id/myView"
+        android:layout_height="20dp"
+        android:layout_width="3dp" />
+
+    <com.example.aliothman.dicref.view.CustomTextView
+        android:textSize="10dp"
+        android:layout_marginStart="@dimen/activity_horizontal_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/texttittle"
+        android:text="التواصل الاجتماعى"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_marginTop="15dp"
+        android:padding="10dp"
+        android:background="@drawable/circle_border"
+        android:layout_alignParentEnd="true"
+        android:scaleType="centerCrop"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/circleimageView"
+        android:layout_below="@+id/texttittle"
+        android:src="@drawable/asll"
+        android:layout_alignParentRight="true" />
+
+
+</RelativeLayout>

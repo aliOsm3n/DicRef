@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/grouprow"
+    android:layoutDirection="rtl"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:layout_margin="@dimen/activity_horizontal_margin"
+    android:background="@drawable/fill_shape">
+
+    <View
+        android:id="@+id/myView"
+        android:layout_height="20dp"
+        android:layout_width="3dp"
+        android:layout_alignParentRight="true" />
+
+    <com.example.aliothman.dicref.view.CustomTextView
+        android:layout_marginStart="9dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/WordArabic"
+        android:text="انسان "
+        android:layout_marginRight="9dp"
+        android:layout_marginLeft="9dp" />
+
+
+    <TextView
+        android:layout_marginStart="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/WordEnglish"
+        android:text="Human"
+        android:layout_marginLeft="150dp" />
+
+    <ImageView
+        android:layout_alignParentEnd="true"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:src="@drawable/narrow_below"
+        android:id="@+id/narrow_below"
+        android:layout_alignParentRight="true" />
+
+    <ImageView
+        android:layout_alignParentEnd="true"
+        android:id="@+id/add_fav"
+        android:layout_marginTop="20dp"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_below="@+id/narrow_below"
+        android:src="@drawable/starempty"
+        android:layout_alignParentRight="true" />
+
+    <com.example.aliothman.dicref.view.CustomTextView
+        android:layout_marginTop="@dimen/activity_horizontal_margin"
+        android:layout_below="@+id/narrow_below"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/fill_shape_cat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:id="@+id/Catalog_text"
+        android:text="انسان "
+        android:layout_alignParentRight="true"
+        android:layout_alignParentLeft="true" />
+
+</RelativeLayout>
+

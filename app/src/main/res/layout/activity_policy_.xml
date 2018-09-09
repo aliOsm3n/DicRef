@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Policy_Activity"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:layoutDirection="rtl">
+
+    <com.example.aliothman.dicref.view.CustomTextView
+        android:id="@+id/policyTittle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/policytitle"/>
+
+    <com.example.aliothman.dicref.view.CustomTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/policyTittle"
+        android:id="@+id/policyText"
+        android:layout_marginTop="20dp"
+        />
+
+</RelativeLayout>
